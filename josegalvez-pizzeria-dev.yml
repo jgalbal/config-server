@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: josegalvez-pizzeria
+
+########## MYSQL #################
+  jpa:
+    hibernate:
+      ddl-auto: create
+    show-sql: true
+  datasource:
+    url: jdbc:mysql://localhost:3306/evaluacion_final
+    username: admin
+    password: admin
+    driver-class-name: com.mysql.jdbc.Driver
